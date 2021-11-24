@@ -1,0 +1,8 @@
+#ifndef MYSTATICLIBRARY_H_INCLUDED
+#define MYSTATICLIBRARY_H_INCLUDED
+
+void myFunction(void);
+
+
+
+#endif // MYSTATICLIBRARY_H_INCLUDED

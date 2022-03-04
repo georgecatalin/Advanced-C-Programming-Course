@@ -1,0 +1,43 @@
+georgeca@georgeca-VirtualBox:~/Desktop$ kill -s SIGCONT 3051
+georgeca@georgeca-VirtualBox:~/Desktop$ LS
+LS: command not found
+georgeca@georgeca-VirtualBox:~/Desktop$ ls
+client   KLS.desktop   LOG_20220302_2       tcp_client_ip_143
+eclipse  LOG_20220302  log_2312_01_noerror  token.txt
+georgeca@georgeca-VirtualBox:~/Desktop$ cd ..
+georgeca@georgeca-VirtualBox:~$ ls
+Compilers  Downloads          my_sandbox  Qt         Videos
+Desktop    eclipse-workspace  Pictures    snap       Workspace
+Documents  Music              Public      Templates
+georgeca@georgeca-VirtualBox:~$ cd my_sandbox/
+georgeca@georgeca-VirtualBox:~/my_sandbox$ ls
+Advanced-C-Programming-Course
+Explore-C-Libraries
+Inter-Process-Communication-in-C
+kls_main_process_with_threads_OLD
+LibraryDesigning
+Linux-System-Programming-tools-and-techniques
+Master-the-C-Language
+MultithreadingBible
+georgeca@georgeca-VirtualBox:~/my_sandbox$ cd Advanced-C-Programming-Course/
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course$ ls
+ 2021-11-04_16-18-29.png            README.md
+'Advanced Control Flow'            'Shared Libraries and Shared Objects'
+'Advanced Data Types'              'Storage classes'
+'Advanced Debugging and Analysis'  'The Preprocessor'
+'Advanced Pointers'                'Type Qualifiers'
+'Bit manipulations'                 Unions
+'Input and Output'                 'Useful C libraries'
+'Interprocess Communication'       'Working with extern variables'
+ Macros                            'Working with Larger Programs'
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course$ cd In
+Input and Output/           Interprocess Communication/
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course$ cd Interprocess\ Communication/
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course/Interprocess Communication$ ls
+get_process_id    listing_the_signals_from_command_line.txt  raising_a_signal.c
+get_process_id.c  raising_a_signal
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course/Interprocess Communication$ ./raising_a_signal 
+The process id is 3110. We will test raising a SIGSTOP signal for this process and starting over this process from command line.
+
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course/Interprocess Communication$ kill -s SIGCONT 3110
+georgeca@georgeca-VirtualBox:~/my_sandbox/Advanced-C-Programming-Course/Interprocess Communication$ I am back after starting from the keyboard
